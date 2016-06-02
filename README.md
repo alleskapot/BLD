@@ -16,7 +16,7 @@ batch: Datenverarbeitungs-Routinen zum Laden neuer IST-Datenstände aus einer Sc
 
 
 # Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
-Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät.
+>Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät.
 * 1 Punkt: Erklären Sie ihre Entscheidung
 * 2 Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
 * 1 Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:
@@ -35,6 +35,6 @@ Als IDE würde ich Intellij IDEA + die bereits installierte Umgebung von Apache 
 http://dataartisans.github.io/flink-training/devSetup/handsOn.html
 
 # Assignment 3: Big Data in Ihrem Umfeld (4 Punkte)
-Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
+>Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
 * 2 Punkte für Programm
 * 2 Punkte, wenn das Programm auch ausführbar ist.
