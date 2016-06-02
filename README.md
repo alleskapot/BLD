@@ -4,15 +4,17 @@
 ## 1.1 (2 Punkte)
 > Schauen Sie sich in Ihrem Umfeld um. FH Technikum oder Ihr Job. Nennen Sie mindestens ein Beispiel für Daten, die schemalos (unstrukturiert) sind und mindestens ein Bespiel für Daten, die strukturiert (schematisch) sind.
 
-unstrukturierte Daten: localStorage im Browser (teilweise; zumindest Key-Value Prinzip), diverse Key-Value Stores
-strukturiert Daten: Speichern von relationalen Daten, IIS Logs
+__unstrukturierte Daten__: localStorage im Browser (teilweise; zumindest Key-Value Prinzip), diverse Key-Value Stores
+
+__strukturiert Daten__: Speichern von relationalen Daten, IIS Logs
 
 
 ## 1.2 (2 Punkte)
 > Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet werden, nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die über Batchverarbeitung verarbeitet werden.
 
-gestreamt: Auswertung von Nutzerstatistiken nach verschiedenen Kriterien
-batch: Datenverarbeitungs-Routinen zum Laden neuer Datenstände aus einer Schnittstelle
+__gestreamt__: Auswertung von Nutzerstatistiken nach verschiedenen Kriterien
+
+__batch__: Datenverarbeitungs-Routinen zum Laden neuer Datenstände aus einer Schnittstelle
 
 
 # Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
