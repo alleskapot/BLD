@@ -40,6 +40,8 @@ http://dataartisans.github.io/flink-training/devSetup/handsOn.html
 * 2 Punkte, wenn das Programm auch ausführbar ist.
 
 Der Source Code zum Programm ist unter `flink-java-project`zu finden. Das .jar zum Upload für Apache Flink ist unter `flink-java-project/target/flink-java-project.jar` und muss folgendermaßen ausgeführt werden.
+
+
 1. "Submit new Job" - http://localhost:8081/#/submit
 2. "Add new" - Das .jar auswählen
 3. Bei "Entry Class", `org.apache.flink.quickstart.WordCount` eintragen
