@@ -4,15 +4,15 @@
 ## 1.1 (2 Punkte)
 > Schauen Sie sich in Ihrem Umfeld um. FH Technikum oder Ihr Job. Nennen Sie mindestens ein Beispiel für Daten, die schemalos (unstrukturiert) sind und mindestens ein Bespiel für Daten, die strukturiert (schematisch) sind.
 
-unstrukturierte Daten: localStorage im Browser (teilweise), diverse Key-Value Stores, bestimmte Userdaten
-strukturiert Daten: Speichern von relationalen Investitionsdaten, IIS Logs
+unstrukturierte Daten: localStorage im Browser (teilweise; zumindest Key-Value Prinzip), diverse Key-Value Stores
+strukturiert Daten: Speichern von relationalen Daten, IIS Logs
 
 
 ## 1.2 (2 Punkte)
 > Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet werden, nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die über Batchverarbeitung verarbeitet werden.
 
-gestreamt: Email-Benachrichtungen bei HTTP 500 Fehlern
-batch: Datenverarbeitungs-Routinen zum Laden neuer IST-Datenstände aus einer Schnittstelle
+gestreamt: Auswertung von Nutzerstatistiken nach verschiedenen Kriterien
+batch: Datenverarbeitungs-Routinen zum Laden neuer Datenstände aus einer Schnittstelle
 
 
 # Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
@@ -22,7 +22,7 @@ batch: Datenverarbeitungs-Routinen zum Laden neuer IST-Datenstände aus einer Sc
 * 1 Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B:
 IDE)
 
-Ich habe mich für Apache Flink entschieden, da ich bereits Erfahrung mit SQL habe und diese Sxntax der teils sehr komplexen map-reduce Abfragen vorziehe.
+Ich habe mich für Apache Flink entschieden, da ich bereits Erfahrung mit SQL habe und diese Syntax der teils sehr komplexen map-reduce Abfragen vorziehe.
 Wenn ich allerdings doch map-reduce Code verwenden möchte, so unterstützt Flink diesen. Allerdings muss den Benutzern von Flink auch klar sein, dass man
 damit nicht Hadoop ersetzen kann - das HDFS, YARN und MapReduce (das Framework) sind unabdingbar.
 
@@ -65,7 +65,7 @@ Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. N
 * 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
 * 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)
 
-1. Ich verwende Python, weil ich in dieser sprache mehr Vorwissen habe und daher die Zeit zum Einlernen geringer ist. Zusätzlich dazu ist Python darauf bedacht komplexe Operationen in der Umsetzung sehr einfach zu halten, das finde ich sympathisch.
+1. Ich verwende Python, weil ich in dieser Sprache mehr Vorwissen habe und daher die Zeit zum Einlernen geringer ist. Zusätzlich dazu ist Python darauf bedacht komplexe Operationen in der Umsetzung sehr einfach zu halten, das finde ich sympathisch.
 2. Zu finden unter `python.png`
 3. Hier würde ich auf einen etwas abgespeckteren Editor wie Atom oder VS-Code zurückgreifen, die beide auch eine sehr gute Integration von Python (mittels Plugins) haben.
 
