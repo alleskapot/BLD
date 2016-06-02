@@ -46,3 +46,39 @@ Der Source Code zum Programm ist unter `flink-java-project`zu finden. Das .jar z
 2. "Add new" - Das .jar auswählen
 3. Bei "Entry Class", `org.apache.flink.quickstart.WordCount` eintragen
 4. Mit "Submit" den Task starten
+
+# Data Science
+
+## Assignment 1: Technologien (4 Punkte)
+>
+1. (2 Punkte)
+Sie haben in der LVA zwei Frameworks kennengelernt (R und Python). Nennen Sie zwei weitere Technologien, um Daten zu analysieren (müssen nicht open source sein)
+2. (2 Punkte)
+Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. Nennen Sie Technologie, die ihnen auf dem ersten Blick am besten für Sie ersscheint und begründen Sie das!
+
+1. MATLAB, Julia
+2. ??
+
+## Assignment 2: Technologien (4 Punkte)
+>Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installieren Sie die auf Ihrem Arbeitsgerät.
+* 1. Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor).
+* 2. Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
+* 1. Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)
+
+1. Ich verwende Python, weil ich in dieser sprache mehr Vorwissen habe und daher die Zeit zum Einlernen geringer ist. Zusätzlich dazu ist Python darauf bedacht komplexe Operationen in der Umsetzung sehr einfach zu halten, das finde ich sympathisch.
+2. Zu finden unter `python.png`
+3. Hier würde ich auf einen etwas abgespeckteren Editor wie Atom oder VS-Code zurückgreifen, die beide auch eine sehr gute Integration von Python (mittels Plugins) haben.
+
+## Assignment 3: Big Science (4 Punkte)
+>Der Cheatsheet auf http://scikit-learn.org/stable/tutorial/machine_learning_map/ ist eine einfache Anleitung, wie man den richtigen Algorithmus zum richtigen Data Science Problem findet.
+Schauen Sie in Google nach und lernen Sie classificatiom, regression, clusting und dimensional reduction unterscheiden.
+Nennen Sie ein Beispiel aus ihrem Umfeld, wo Sie mit dem Algorithmus zu tun haben. Das kann ein Beispiel sein, wie: Wenn Sie bei Amazon einkaufen. Wenn Sie von einem Marketinginstitut angerufen werden, etc.
+
+* classification
+  Hierbei werden diverse Inputs in zwei oder mehr Klassen unterteilt. Wenn diese Zuteilung nicht möglich ist, so muss dem System ein Model beigebracht werden, zum richten klassifizeren. Ein typisches Beispiel wären Spam-Emails.
+* regression
+  Hierbei handelt es sich ebenso um ein Problem, bei dem es einen "Lehrer" für das System benötigt.
+* clustering
+  Hierbei werden diverse Inputs in Gruppen unterteilt. Im Unterschied zur calssification sind diese Gruppen zuvor nicht bekannt und dadurch ist hier kein "Lehrer" bzw. Supervisor notwendig.
+* dimensional reduction
+  Hierbei werden Inputs vereinfacht, indem sie in "einfachere" Dimensionen gemappt werden. Ein typisches Beispiel wäre, wenn ein bestimmter Text gegeben ist, einen ähnlichen zu finden.
