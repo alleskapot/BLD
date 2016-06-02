@@ -28,7 +28,7 @@ damit nicht Hadoop ersetzen kann - das HDFS, YARN und MapReduce (das Framework) 
 
 http://stackoverflow.com/questions/28082581/what-is-the-difference-between-apache-spark-and-apache-flink
 
-Der Screenshot der Umgebung lieft im Repository unter `apache flink.png`
+Der Screenshot der Umgebung liegt im Repository unter `apache flink.png`
 
 Als IDE würde ich Intellij IDEA + die bereits installierte Umgebung von Apache Flink sowie Maven verwenden.
 
@@ -38,3 +38,9 @@ http://dataartisans.github.io/flink-training/devSetup/handsOn.html
 >Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
 * 2 Punkte für Programm
 * 2 Punkte, wenn das Programm auch ausführbar ist.
+
+Der Source Code zum Programm ist unter `flink-java-project`zu finden. Das .jar zum Upload für Apache Flink ist unter `flink-java-project/target/flink-java-project.jar` und muss folgendermaßen ausgeführt werden.
+1. "Submit new Job" - http://localhost:8081/#/submit
+2. "Add new" - Das .jar auswählen
+3. Bei "Entry Class", `org.apache.flink.quickstart.WordCount` eintragen
+4. Mit "Submit" den Task starten
